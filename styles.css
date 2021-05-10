@@ -150,11 +150,18 @@ footer .container {
     text-align: center;
 }
 
+footer .container .learn-more,
+footer .container .meet-us,
+footer .container .contact {
+    padding: 0.3rem 0;
+}
+
 footer .container .s6 a {
     color:white;
     font-size: 0.7rem;
     display: block;
     text-decoration: none;
+    padding: 0.1rem 0;
 }
 
 footer .container .s6 h6 {
