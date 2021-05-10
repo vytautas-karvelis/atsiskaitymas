@@ -125,6 +125,37 @@ header h3 {
     border-radius: 50%; 
 }
 
+/* section5 */
+
+.section5 .container {
+    width:100%;
+    height:6px;
+    background-color: rgb(177, 177, 29);
+}
+
+/* section6 */
+
+.section6 .container {
+    background-color: gray;
+    text-align: center;
+    padding:0.7rem 0;
+}
+
+.section6 .container .s6 a {
+    display: block;
+    text-decoration: none;
+    color:white;
+    font-size: 0.7rem;
+}
+
+.section6 .container .s6 h6 {
+    color: rgb(177, 177, 29);
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+}
+.section6 .container .s6 h6:first-child {
+    padding-top:none;
+}
 
 
 /* flex positioning */
