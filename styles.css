@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    background-color: gray;
+    padding: 0.5rem 0;
+    text-align: center; 
+}
+
+header input {    
+    padding-left:20px;
+    width:30%;
+}
+
+header .search-bar {
+    position:relative;
+   
+}
+
+header .search-bar i {
+    color:blue;
+    left:35.7%;
+    position:absolute;
+    top:3px;
+}
+
+header h3 {
+    padding-bottom:0.4rem;
+}
+
+/* section1 */
+
+.section1 {
+    background:url("img/yellow-wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:40vh;
+}
+
+.section1 .container {
+    width:100%;
+    height:100%;
+}
+
+.section1 .container h2 {
+    color:gray;
+}
+
+/* section2 */
+
+.section2 .container {
+    width:100%;
+    height:auto;
+    padding:0.2rem 0;
+}
+
+.section2 .container .img1 {
+    width:33%;
+    border-radius: 50%; 
+}
+
+.section2 .container .img2 {
+    width:33%;
+    border-radius: 50%;   
+}
+
+.section2 .container .img3 {
+    width:33%;
+    border-radius: 50%;   
+}
+
+/* section3 */
+
+.section3 .container {
+    text-align: center;
+}
+
+.section3 .container h3 {
+    color:rgb(177, 177, 29);
+    padding-bottom: 0.3rem;
+}
+
+.section3 .container p {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+/* section4 */
+
+.section4 .container {
+    padding: 0.5rem 0;
+}
+
+.section4 .container .person1 {
+    margin-bottom: 0.5rem;
+}
+
+.section4 .container .person
+{
+    text-align: center;
+}
+
+.section4 .container .person h6
+{
+    color:rgb(177, 177, 29);
+    font-size: 0.8rem; 
+}
+
+.section4 .container .person p
+{
+    font-size: 0.6rem;
+    font-style: italic;
+}
+
+.section4 .container .person img
+ {
+    width:135px;
+    border-radius: 50%; 
+}
+
+
+
+/* flex positioning */
+
+.flex-center {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.flex-center-row {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
