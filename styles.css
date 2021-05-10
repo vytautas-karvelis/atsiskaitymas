@@ -65,7 +65,7 @@ header h3 {
 
 .section2 .container .img1 {
     border-radius: 50%; 
-    max-width: 135px;
+    max-width: 135px;   
     width:33%;
 }
 
@@ -77,7 +77,7 @@ header h3 {
 
 .section2 .container .img3 {
     border-radius: 50%; 
-    max-width: 135px;  
+    max-width: 135px;
     width:33%;
 }
 
@@ -100,16 +100,16 @@ header h3 {
 /* section4 */
 
 .section4 .container {
-    padding: 0.5rem 0;
-}
-
-.section4 .container .person1 {
-    margin-bottom: 0.5rem;
+    padding: 1rem 0;
 }
 
 .section4 .container .person
 {
     text-align: center;
+}
+
+.section4 .container .person1 {
+    margin-bottom: 0.5rem;
 }
 
 .section4 .container .person h6
@@ -127,7 +127,7 @@ header h3 {
 .section4 .container .person img
  {
     border-radius: 50%; 
-    width:135px;
+    width:39%;
 }
 
 /* section5 */
@@ -181,7 +181,7 @@ footer .container .s6 h6:first-child {
 .flex-center-row {
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
