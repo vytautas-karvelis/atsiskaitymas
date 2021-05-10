@@ -226,4 +226,36 @@ header h3 {
         top:-4rem;
     }
 
+    .section4 .container {
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        padding-bottom:2rem;       
+        position: relative;
+        top:-3rem;
+    }
+
+    .section4 .container .person {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        padding-bottom:2rem;   
+        margin-left:1.5rem; 
+    }
+
+    .section4 .container .person img {
+        width:100px;
+    }
+
+    .section4 .container .person .details {
+        padding:1rem;
+    }
+
+    .section4 .container .person .details h6 {
+        margin-bottom: 0.5rem;
+    }
+
 }
