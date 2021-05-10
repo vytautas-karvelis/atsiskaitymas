@@ -6,10 +6,16 @@
 
 /* header */
 
+
+
 header {
     background-color: gray;
     padding: 0.5rem 0;
     text-align: center; 
+}
+
+header h3 {
+    color:white
 }
 
 header input {    
@@ -51,6 +57,7 @@ header h3 {
 
 .section1 .container h2 {
     color:gray;
+    font-size: 2rem;
 }
 
 /* section2 */
@@ -183,6 +190,11 @@ header h3 {
 	align-content: center;
 }
 
+.container{
+    max-width: 500px;
+    margin:0 auto;
+}
+
 
 @media only screen and (min-width:768px){
     .container {
@@ -257,6 +269,11 @@ header h3 {
     .section4 .container .person .details h6 {
         margin-bottom: 0.5rem;
     }
+
+    .section5 .container {
+        max-width:100%;
+    }
+
     .section6 .container {
         display: flex;
         flex-direction: row;
@@ -264,6 +281,10 @@ header h3 {
         justify-content: space-between;
         align-items: baseline;
         align-content: flex-start;    
+    }
+
+    .section6 .container a {
+        padding:0.1rem;
     }
 
 }
