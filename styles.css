@@ -63,16 +63,19 @@ header h3 {
 .section2 .container .img1 {
     width:33%;
     border-radius: 50%; 
+    max-width: 135px;
 }
 
 .section2 .container .img2 {
     width:33%;
     border-radius: 50%;   
+    max-width: 135px;
 }
 
 .section2 .container .img3 {
     width:33%;
-    border-radius: 50%;   
+    border-radius: 50%; 
+    max-width: 135px;  
 }
 
 /* section3 */
@@ -122,6 +125,7 @@ header h3 {
  {
     width:135px;
     border-radius: 50%; 
+
 }
 
 /* section5 */
@@ -157,6 +161,27 @@ header h3 {
     padding-top:none;
 }
 
+/* flex positioning */
+
+.flex-center {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.flex-center-row {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+
 @media only screen and (min-width:768px){
     .container {
         width: 500px;
@@ -185,36 +210,20 @@ header h3 {
         display: block;
         float:left;
         text-align:left;
-    }
-   
+    }   
 
     .section1 {
         height:75vh;
     }
 
-    .section2 {
-
+    .section2 .container {
+       position: relative;
+       top:-5rem;
     }
 
-}
+    .section3 .container {
+        position: relative;
+        top:-4rem;
+    }
 
-
-/* flex positioning */
-
-.flex-center {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-}
-
-.flex-center-row {
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: center;
 }
