@@ -138,8 +138,10 @@ header h3 {
 
 /* section6 */
 
-.section6 .container {
+.section6 {
     background-color: gray;
+}
+.section6 .container {    
     text-align: center;
     padding:0.7rem 0;
 }
@@ -217,22 +219,21 @@ header h3 {
     }
 
     .section2 .container {
-       position: relative;
-       top:-5rem;
+        position: absolute;
+        top:72%;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .section3 .container {
-        position: relative;
-        top:-4rem;
+       padding-top:5rem;
     }
 
     .section4 .container {
         display:flex;
         justify-content:space-around;
         align-items: center;
-        padding-bottom:2rem;       
-        position: relative;
-        top:-3rem;
+        padding: 2.5rem 0;
     }
 
     .section4 .container .person {
@@ -241,8 +242,7 @@ header h3 {
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
-        align-content: center;
-        padding-bottom:2rem;   
+        align-content: center;        
         margin-left:1.5rem; 
     }
 
@@ -256,6 +256,14 @@ header h3 {
 
     .section4 .container .person .details h6 {
         margin-bottom: 0.5rem;
+    }
+    .section6 .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: baseline;
+        align-content: flex-start;    
     }
 
 }
